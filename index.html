@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Currency Visualization</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="DataVis">
+        <div class="DataVis-title">
+            <h3>Currency Exchange Rates (2/24/21)</h3>
+        </div>
+        <div class="DataVis-content">
+            <div class="DataVis-content-bar" id="USD" onClick="
+                alert('USD to EUR: 1.2146 to 1');
+            ">
+                USD $
+            </div>
+            <div class="DataVis-content-bar" id="EUR" onClick="
+                alert('EUR to EUR: 1 to 1');
+            ">
+                EUR &euro;
+            </div>
+            <div class="DataVis-content-bar" id="RUB" onClick="
+                alert('RUB to EUR: 89.4919 to 1');
+            ">
+                RUB &#8381;
+            </div>
+            <div class="DataVis-content-bar" id="CNY" onClick="
+                alert('CNY to EUR: 7.8362 to 1');
+            ">
+                CNY &#165;
+            </div>
+            <div class="DataVis-content-bar" id="JPY" onClick="
+                alert('JPY to EUR: 128.69 to 1');
+            ">
+                JPY &#165;
+            </div>
+            <div class="DataVis-content-bar" id="AUD" onClick="
+                alert('AUD to EUR: 1.5347 to 1');
+            ">
+                AUD $
+            </div>
+            <div class="DataVis-content-bar" id="CAD" onClick="
+                alert('CAD to EUR: 1.5266 to 1');
+            ">
+                CAD $
+            </div>
+        </div>
+    </div>
+</body>
+</html>
